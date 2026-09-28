@@ -61,4 +61,4 @@ python Semester_1/502_Essential_Technologies_for_Data_Science_Practical/P05_Univ
 
 ## Author
 
-Ranvijay Singh — Haitech Medical Solutions Private Limited
+Ranvijay Singh
