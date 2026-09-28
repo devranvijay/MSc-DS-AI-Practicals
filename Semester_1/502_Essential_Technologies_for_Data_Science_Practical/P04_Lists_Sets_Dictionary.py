@@ -41,14 +41,29 @@ print("Intersection:", set1 & set2)
 print("Difference:", set1 - set2)
 
 # Dictionary operations
-student = {"name": "Aditi", "age": 21, "course": "MSc DS & AI"}
+student = {
+    "Name": "Ranvijay",
+    "age": 20,
+    "Course": "MSC DS AI",
+    "Marks": 95,
+}
 print("Dictionary:", student)
 
-student["marks"] = 85
-print("After adding marks:", student)
+# Accessing a value
+print("Student Name:", student["Name"])
+print("Marks:", student["Marks"])
 
-student["age"] = 22
-print("After updating age:", student)
+# Adding a new key value pair
+student["Grade"] = "A"
+print("After Adding a Grade:", student)
+
+# update a value
+student["Marks"] = 100
+print("After updating a marks student:", student)
+
+# removing a key-value pair
+del student["age"]
+print("After removing age the student is:", student)
 
 print("Keys:", list(student.keys()))
 print("Values:", list(student.values()))
@@ -63,11 +78,14 @@ print("Values:", list(student.values()))
 # Union: {1, 2, 3, 4, 5, 6}
 # Intersection: {3, 4}
 # Difference: {1, 2}
-# Dictionary: {'name': 'Aditi', 'age': 21, 'course': 'MSc DS & AI'}
-# After adding marks: {'name': 'Aditi', 'age': 21, 'course': 'MSc DS & AI', 'marks': 85}
-# After updating age: {'name': 'Aditi', 'age': 22, 'course': 'MSc DS & AI', 'marks': 85}
-# Keys: ['name', 'age', 'course', 'marks']
-# Values: ['Aditi', 22, 'MSc DS & AI', 85]
+# Dictionary: {'Name': 'Ranvijay', 'age': 20, 'Course': 'MSC DS AI', 'Marks': 95}
+# Student Name: Ranvijay
+# Marks: 95
+# After Adding a Grade: {'Name': 'Ranvijay', 'age': 20, 'Course': 'MSC DS AI', 'Marks': 95, 'Grade': 'A'}
+# After updating a marks student: {'Name': 'Ranvijay', 'age': 20, 'Course': 'MSC DS AI', 'Marks': 100, 'Grade': 'A'}
+# After removing age the student is: {'Name': 'Ranvijay', 'Course': 'MSC DS AI', 'Marks': 100, 'Grade': 'A'}
+# Keys: ['Name', 'Course', 'Marks', 'Grade']
+# Values: ['Ranvijay', 'MSC DS AI', 100, 'A']
 
 # Result:
 # The program to demonstrate list, set and dictionary operations was
@@ -79,3 +97,5 @@ print("Values:", list(student.values()))
 # 3. How are values accessed in a dictionary?
 # 4. What is the difference between append() and insert() in a list?
 # 5. Name two set operations and what they do.
+# 6. How do you add or update a key-value pair in a dictionary?
+# 7. Which statement is used to remove a key-value pair from a dictionary?
