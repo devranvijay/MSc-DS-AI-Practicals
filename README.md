@@ -52,12 +52,6 @@ pip install -r requirements.txt
 python Semester_1/502_Essential_Technologies_for_Data_Science_Practical/P05_Univariate_Analysis.py
 ```
 
-## Roadmap
-
-- [x] Semester 1 — 502 (Essential Technologies for Data Science), 504 (Artificial Intelligence)
-- [ ] Semester 2
-- [ ] Semester 3
-- [ ] Semester 4
 
 ## Author
 
